@@ -1,0 +1,143 @@
+.site-navbar .navbar-brand {
+	font-size:2rem !important;
+}
+.home-header-title-wrapper {border: 10px solid green; background:none}
+.chevron-wrapper {display:none}
+.site-navbar .navbar-brand {font-size: 1.5rem;}
+.google-maps {
+        position: relative;
+        padding-bottom: 75%; 
+        height: 0;
+        overflow: hidden;
+    }
+.google-maps-short {
+        position: relative;
+        padding-bottom: 250px; 
+				padding-top:10px;
+        height: 0;
+        overflow: hidden;
+    }
+.google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+.google-maps-short iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+.valencia-college-padding{
+	padding-top:76px
+}
+ #map {
+        height: 600px;
+        width: 100%;
+       }
+.yellowbox {
+    background-color: #ffc904;
+	padding: 15px;
+	border-radius: 0px;
+}
+.background_TransColumns {
+    background-color: #000000;
+    padding: 1rem;
+    text-align: left
+}
+@media (min-width:576px) {
+    .background_TransColumns {
+        background-color: rgba(0, 0, 0,100);
+        padding: 2.5rem 1.5rem
+    }
+}
+.display-headerhome {
+    font-size: 8vw;
+    font-weight: 600;
+    line-height: .825
+}
+.text-shadow-hard {
+    text-shadow: 0 1px 0 #000
+}
+/* accordion css */
+.mb-0 > a {
+  display: block;
+  position: relative;
+}
+.mb-0 > a:after {
+  content: "\f078"; /* fa-chevron-down */
+  font-family: 'FontAwesome';
+  position: absolute;
+  right: 0;
+}
+.mb-0 > a[aria-expanded="true"]:after {
+  content: "\f077"; /* fa-chevron-up */
+}
+/* end accordion css */
+/* create vertical line */
+.hr-vertical {
+    border-left-style: solid;
+    border-top: 0 solid transparent;
+    height: 100%;
+    margin-bottom: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0;
+    width: 0
+}
+/* yellow color for vertical line */
+.hr-primary {
+    border-color: #fc0
+}
+
+
+
+.mobileShow { display: none; }
+.tabletShow { display:none }
+.desktopShow {display:inline }
+
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px) {
+        .mobileShow {
+            display: inline;
+        }
+        .desktopShow {
+            display:none;
+        }
+        .header-content-inner .container {display:none !important}
+  }
+
+  @media only screen
+    and (min-device-width : 992px)
+    and (max-device-width: 768px)  {
+        .tabletShow {
+            display:inline;
+        }
+        .desktopShow {
+            display:none;
+        }
+  }
+  @media only screen
+    and (min-device-width : 1024px)
+    and (max-device-width: 1366px)  {
+        .tabletShow {
+            display:inline;
+        }
+        .desktopShow {
+            display:none;
+        }
+  }
+  @media only screen
+    and (min-device-width : 768px)
+    and (max-device-width: 1024px)  {
+        .tabletShow {
+            display:inline !important;
+        }
+        .desktopShow {
+            display:none;
+        }
+  }
